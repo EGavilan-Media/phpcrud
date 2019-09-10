@@ -16,7 +16,7 @@ function file_get_contents_curl($url) {
     return $data;
 }
 
-$html=file_get_contents("http://localhost/egavilanmedia/10-PHP%20and%20MySQL%20CRUD/printPDF.php");
+$html=file_get_contents("http://localhost/phpcrud-master/printPDF.php");
 
 $pdf = new DOMPDF(); 
 
